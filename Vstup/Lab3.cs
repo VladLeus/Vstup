@@ -6,6 +6,7 @@ namespace Vstup
     {
         public static void DoLab3()
         {
+            Console.Clear();
             Console.WriteLine("Введіть перше число у двійковій системі числення:");
             string num1 = Console.ReadLine();
             Console.WriteLine("Введіть друге число у двійковій системі числення:");
