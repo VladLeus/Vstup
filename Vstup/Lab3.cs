@@ -13,7 +13,7 @@ namespace Vstup
             int x = Convert.ToInt32(num1, 2);
             int y = Convert.ToInt32(num2, 2);
             int result = x * y;
-            Console.WriteLine("\nDecimal: {0}", result + "\nBinary: " + Convert.ToString(result, 2).PadLeft(8,'0'));
+            Console.WriteLine("\nДесяткове: {0}", result + "\nДвійкове: " + Convert.ToString(result, 2).PadLeft(8,'0'));
             Console.WriteLine("Натисніть Еnter, щоб перейти до вибору лабораторних робіт");
             Console.ReadKey();
         }
